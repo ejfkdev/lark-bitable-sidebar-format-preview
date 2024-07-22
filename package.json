@@ -10,7 +10,8 @@
     "new": "modern new",
     "lint": "modern lint",
     "prepare": "husky install",
-    "upgrade": "modern upgrade"
+    "upgrade": "modern upgrade",
+    "deploy": "modern deploy"
   },
   "engines": {
     "node": ">=16.18.1"
@@ -25,23 +26,41 @@
     "dist/"
   ],
   "dependencies": {
+    "@douyinfe/semi-ui": "^2.62.1",
+    "@lark-base-open/js-sdk": "^0.4.0",
+    "@modern-js/plugin-bff": "2.56.0",
+    "@modern-js/plugin-express": "2.56.0",
+    "@modern-js/plugin-tailwindcss": "2.56.0",
     "@modern-js/runtime": "2.56.0",
-    "react": "~18.2.0",
-    "react-dom": "~18.2.0"
+    "@prettier/plugin-xml": "^3.4.1",
+    "@semi-bot/semi-theme-feishu-dashboard": "^1.0.4",
+    "express": "~4.19.2",
+    "highlight.js": "^11.10.0",
+    "prettier-plugin-sh": "^0.14.0",
+    "prettier-plugin-sql": "^0.18.1",
+    "prettier-plugin-toml": "^2.0.1",
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1"
   },
   "devDependencies": {
+    "@modern-js-app/eslint-config": "2.56.0",
     "@modern-js/app-tools": "2.56.0",
     "@modern-js/eslint-config": "2.56.0",
+    "@modern-js/plugin-ssg": "2.56.0",
     "@modern-js/tsconfig": "2.56.0",
-    "@modern-js-app/eslint-config": "2.56.0",
-    "typescript": "~5.0.4",
-    "@types/jest": "~29.2.4",
-    "@types/node": "~16.11.7",
-    "@types/react": "~18.0.26",
-    "@types/react-dom": "~18.0.10",
-    "lint-staged": "~13.1.0",
-    "prettier": "~2.8.1",
-    "husky": "~8.0.1",
-    "rimraf": "~3.0.2"
+    "@types/express": "~4.17.21",
+    "@types/jest": "~29.5.12",
+    "@types/node": "~20.14.11",
+    "@types/react": "~18.3.3",
+    "@types/react-dom": "~18.3.0",
+    "husky": "~9.1.1",
+    "lint-staged": "~15.2.7",
+    "plugin-xml": "link:@types/@prettier/plugin-xml",
+    "prettier": "~3.3.3",
+    "rimraf": "~6.0.1",
+    "tailwindcss": "~3.4.6",
+    "ts-node": "~10.9.2",
+    "tsconfig-paths": "~4.2.0",
+    "typescript": "~5.5.3"
   }
 }

@@ -6,9 +6,11 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
-      "@shared/*": ["./shared/*"]
+      "@shared/*": ["./shared/*"],
+      "@api/*": ["./api/*"],
+      "@public/*": ["./config/public/*"]
     }
   },
-  "include": ["src", "shared", "config", "modern.config.ts"],
+  "include": ["src", "shared", "config", "*.config.ts", "api"],
   "exclude": ["**/node_modules"]
 }
