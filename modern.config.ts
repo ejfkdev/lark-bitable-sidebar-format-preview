@@ -16,6 +16,7 @@ export default defineConfig({
     distPath: {
       html: '',
     },
+    assetPrefix: './',
     ssg: true,
   },
   plugins: [

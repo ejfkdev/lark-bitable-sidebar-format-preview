@@ -10,11 +10,11 @@
         "909"
       ],
       "assets": [
-        "/static/js/lib-react.8e3eec5f.js",
-        "/static/js/lib-polyfill.cd88972c.js",
-        "/static/js/lib-router.d8f76f79.js",
-        "/static/js/34.dd5c22c1.js",
-        "/static/js/main.491639ee.js"
+        "./static/js/lib-react.8e3eec5f.js",
+        "./static/js/lib-polyfill.cd88972c.js",
+        "./static/js/lib-router.d8f76f79.js",
+        "./static/js/34.dd5c22c1.js",
+        "./static/js/main.e72a163c.js"
       ],
       "referenceCssAssets": []
     },
@@ -26,16 +26,16 @@
         "484"
       ],
       "assets": [
-        "/static/css/async/lib-semi.3afca348.css",
-        "/static/js/async/lib-semi.021081f7.js",
-        "/static/js/async/lib-lodash.213cb490.js",
-        "/static/js/async/67.8b54ec0d.js",
-        "/static/css/async/page.c27874e5.css",
-        "/static/js/async/page.a670077a.js"
+        "./static/css/async/lib-semi.3afca348.css",
+        "./static/js/async/lib-semi.021081f7.js",
+        "./static/js/async/lib-lodash.213cb490.js",
+        "./static/js/async/67.8b54ec0d.js",
+        "./static/css/async/page.c27874e5.css",
+        "./static/js/async/page.a670077a.js"
       ],
       "referenceCssAssets": [
-        "/static/css/async/lib-semi.3afca348.css",
-        "/static/css/async/page.c27874e5.css"
+        "./static/css/async/lib-semi.3afca348.css",
+        "./static/css/async/page.c27874e5.css"
       ]
     }
   }

@@ -46,6 +46,7 @@
     "disableNodePolyfill": true,
     "enableInlineRouteManifests": true,
     "disableInlineRouteManifests": false,
+    "assetPrefix": "./",
     "ssg": true
   },
   "server": {
@@ -201,6 +202,7 @@
       "distPath": {
         "html": ""
       },
+      "assetPrefix": "./",
       "ssg": true
     },
     "plugins": [

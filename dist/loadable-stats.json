@@ -1,7 +1,7 @@
 {
   "name": "web",
-  "hash": "c2d82df851848b9c",
-  "publicPath": "/",
+  "hash": "b7d117b6c59a5eb9",
+  "publicPath": "./",
   "outputPath": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/dist",
   "assetsByChunkName": {
     "lib-lodash": [
@@ -18,7 +18,7 @@
       "static/js/async/lib-semi.021081f7.js"
     ],
     "main": [
-      "static/js/main.491639ee.js"
+      "static/js/main.e72a163c.js"
     ],
     "page": [
       "static/css/async/page.c27874e5.css",
@@ -585,7 +585,7 @@
     {
       "type": "asset",
       "name": "main.html",
-      "size": 7013,
+      "size": 7019,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -605,8 +605,8 @@
     },
     {
       "type": "asset",
-      "name": "static/js/main.491639ee.js",
-      "size": 3584,
+      "name": "static/js/main.e72a163c.js",
+      "size": 3587,
       "emitted": false,
       "info": {
         "minimized": true,
@@ -616,11 +616,11 @@
         "javascriptModule": false,
         "chunkHash": [],
         "contentHash": [
-          "491639ee"
+          "e72a163c"
         ],
         "related": {
           "sourceMap": [
-            "static/js/main.9aeea468.js.map"
+            "static/js/main.d2866101.js.map"
           ]
         }
       },
@@ -690,7 +690,7 @@
     },
     {
       "type": "asset",
-      "name": "static/js/main.491639ee.js.map",
+      "name": "static/js/main.e72a163c.js.map",
       "size": 1851,
       "emitted": false,
       "info": {
@@ -716,7 +716,7 @@
     {
       "type": "asset",
       "name": "routes-manifest.json",
-      "size": 987,
+      "size": 1000,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -1030,7 +1030,7 @@
     {
       "id": "909",
       "files": [
-        "static/js/main.491639ee.js"
+        "static/js/main.e72a163c.js"
       ]
     },
     {
@@ -1070,12 +1070,12 @@
           "size": 816995
         },
         {
-          "name": "static/js/main.491639ee.js",
-          "size": 3584
+          "name": "static/js/main.e72a163c.js",
+          "size": 3587
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 1235690,
+      "assetsSize": 1235693,
       "children": {}
     }
   },
@@ -1108,12 +1108,12 @@
           "size": 816995
         },
         {
-          "name": "static/js/main.491639ee.js",
-          "size": 3584
+          "name": "static/js/main.e72a163c.js",
+          "size": 3587
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 1235690,
+      "assetsSize": 1235693,
       "children": {}
     },
     "page": {
