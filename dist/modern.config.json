@@ -36,7 +36,7 @@
   "output": {
     "distPath": {
       "root": "dist",
-      "html": "html",
+      "html": "",
       "js": "static/js",
       "css": "static/css",
       "server": "bundles",
@@ -70,7 +70,8 @@
       "imagemode": "force",
       "wap-font-scale": "no",
       "format-detection": "telephone=no"
-    }
+    },
+    "disableHtmlFolder": true
   },
   "tools": {
     "tsChecker": {
@@ -190,10 +191,16 @@
   },
   "runtimeByEntries": {},
   "_raw": {
+    "html": {
+      "disableHtmlFolder": true
+    },
     "runtime": {
       "router": true
     },
     "output": {
+      "distPath": {
+        "html": ""
+      },
       "ssg": true
     },
     "plugins": [

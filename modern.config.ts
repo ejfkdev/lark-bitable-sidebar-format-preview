@@ -6,10 +6,16 @@ import { ssgPlugin } from '@modern-js/plugin-ssg';
 
 // https://modernjs.dev/en/configure/app/usage
 export default defineConfig({
+  html: {
+    disableHtmlFolder: true,
+  },
   runtime: {
     router: true,
   },
   output: {
+    distPath: {
+      html: '',
+    },
     ssg: true,
   },
   plugins: [

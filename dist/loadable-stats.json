@@ -584,7 +584,7 @@
     },
     {
       "type": "asset",
-      "name": "html/main/index.html",
+      "name": "main.html",
       "size": 7013,
       "emitted": false,
       "info": {
