@@ -1,14 +1,19 @@
 {
   "autoLoadPlugins": false,
   "source": {
+    "entries": {
+      "index": {
+        "entry": "./src/App.tsx"
+      }
+    },
     "mainEntryName": "main",
     "enableAsyncEntry": false,
     "enableCustomEntry": false,
-    "disableDefaultEntries": false,
+    "disableDefaultEntries": true,
     "entriesDir": "./src",
     "configDir": "./config",
     "globalVars": {
-      "process.env.MODERN_JS_VERSION": "2.56.0",
+      "process.env.MODERN_JS_VERSION": "2.56.2",
       "process.env.IS_REACT18": "true"
     },
     "alias": {
@@ -18,19 +23,13 @@
       "@shared": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/shared",
       "styled-components": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/styled-components/dist/styled-components.cjs.js",
       "@modern-js/runtime/plugins": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/.modern-js/.runtime-exports/plugins.js",
-      "@modern-js/runtime-utils/node$": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/@modern-js/runtime-utils/dist/cjs/node/index.js",
-      "@modern-js/runtime/server": "@modern-js/plugin-express/runtime",
-      "@modern-js/runtime/express": "@modern-js/plugin-express/runtime"
+      "@modern-js/runtime-utils/node$": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/@modern-js/runtime-utils/dist/cjs/node/index.js"
     },
     "include": [
       {},
       {},
       {},
       "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/.modern-js"
-    ],
-    "moduleScopes": [
-      "./api",
-      {}
     ]
   },
   "output": {
@@ -169,12 +168,6 @@
       ]
     },
     {
-      "name": "@modern-js/plugin-bff"
-    },
-    {
-      "name": "@modern-js/plugin-express"
-    },
-    {
       "name": "@modern-js/plugin-ssg",
       "pre": [
         "@modern-js/plugin-server",
@@ -188,15 +181,23 @@
     }
   ],
   "runtime": {
-    "router": true
+    "router": false
   },
   "runtimeByEntries": {},
   "_raw": {
+    "source": {
+      "entries": {
+        "index": {
+          "entry": "./src/App.tsx"
+        }
+      },
+      "disableDefaultEntries": true
+    },
     "html": {
       "disableHtmlFolder": true
     },
     "runtime": {
-      "router": true
+      "router": false
     },
     "output": {
       "distPath": {
@@ -208,9 +209,7 @@
     "plugins": [
       "[Circular 0]",
       "[Circular 1]",
-      "[Circular 2]",
-      "[Circular 3]",
-      "[Circular 4]"
+      "[Circular 2]"
     ]
   },
   "bff": {},

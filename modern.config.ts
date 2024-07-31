@@ -1,16 +1,22 @@
 import { appTools, defineConfig } from '@modern-js/app-tools';
 import { tailwindcssPlugin } from '@modern-js/plugin-tailwindcss';
-import { bffPlugin } from '@modern-js/plugin-bff';
-import { expressPlugin } from '@modern-js/plugin-express';
 import { ssgPlugin } from '@modern-js/plugin-ssg';
 
 // https://modernjs.dev/en/configure/app/usage
 export default defineConfig({
+  source: {
+    entries: {
+      index: {
+        entry: './src/App.tsx',
+      },
+    },
+    disableDefaultEntries: true,
+  },
   html: {
     disableHtmlFolder: true,
   },
   runtime: {
-    router: true,
+    router: false,
   },
   output: {
     distPath: {
@@ -24,8 +30,6 @@ export default defineConfig({
       bundler: 'experimental-rspack',
     }),
     tailwindcssPlugin(),
-    bffPlugin(),
-    expressPlugin(),
     ssgPlugin(),
   ],
 });

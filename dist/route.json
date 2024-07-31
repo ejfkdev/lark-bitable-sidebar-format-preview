@@ -1,9 +1,9 @@
 {
   "routes": [
     {
-      "urlPath": "/",
-      "entryName": "main",
-      "entryPath": "./index.html",
+      "urlPath": "/index",
+      "entryName": "index",
+      "entryPath": "index.html",
       "isSPA": true,
       "isStream": false,
       "isSSR": false
@@ -19,13 +19,6 @@
       "isSPA": true,
       "isSSR": false,
       "entryPath": "public/css/atom-one-light.css"
-    },
-    {
-      "urlPath": "/api",
-      "isApi": true,
-      "entryPath": "",
-      "isSPA": false,
-      "isSSR": false
     }
   ]
 }

@@ -1,38 +1,32 @@
 {
   "name": "web",
-  "hash": "b7d117b6c59a5eb9",
+  "hash": "d1ee72ba75df04de",
   "publicPath": "./",
   "outputPath": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/dist",
   "assetsByChunkName": {
     "lib-lodash": [
-      "static/js/async/lib-lodash.213cb490.js"
+      "static/js/lib-lodash.213cb490.js"
     ],
     "lib-react": [
       "static/js/lib-react.8e3eec5f.js"
     ],
-    "lib-router": [
-      "static/js/lib-router.d8f76f79.js"
+    "index": [
+      "static/css/index.beb8e93f.css",
+      "static/js/index.52b74106.js"
     ],
     "lib-semi": [
-      "static/css/async/lib-semi.3afca348.css",
-      "static/js/async/lib-semi.021081f7.js"
-    ],
-    "main": [
-      "static/js/main.e72a163c.js"
-    ],
-    "page": [
-      "static/css/async/page.c27874e5.css",
-      "static/js/async/page.a670077a.js"
+      "static/css/lib-semi.8dccdd96.css",
+      "static/js/lib-semi.7fd02d4b.js"
     ],
     "lib-polyfill": [
-      "static/js/lib-polyfill.cd88972c.js"
+      "static/js/lib-polyfill.9e031959.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "static/js/async/67.8b54ec0d.js.map",
-      "size": 9308542,
+      "name": "static/js/380.96fbc308.js.map",
+      "size": 11577402,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -51,13 +45,13 @@
       ],
       "chunks": [],
       "auxiliaryChunks": [
-        "67"
+        "380"
       ]
     },
     {
       "type": "asset",
-      "name": "static/js/async/67.8b54ec0d.js",
-      "size": 3527001,
+      "name": "static/js/380.96fbc308.js",
+      "size": 4336445,
       "emitted": false,
       "info": {
         "minimized": true,
@@ -67,11 +61,11 @@
         "javascriptModule": false,
         "chunkHash": [],
         "contentHash": [
-          "8b54ec0d"
+          "96fbc308"
         ],
         "related": {
           "sourceMap": [
-            "static/js/async/67.6c6e2572.js.map"
+            "static/js/380.22a7976e.js.map"
           ]
         }
       },
@@ -82,39 +76,14 @@
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
       "chunks": [
-        "67"
+        "380"
       ],
       "auxiliaryChunks": []
     },
     {
       "type": "asset",
-      "name": "static/js/34.dd5c22c1.js.map",
-      "size": 2287747,
-      "emitted": false,
-      "info": {
-        "minimized": false,
-        "development": true,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [
-        "vendors"
-      ],
-      "chunks": [],
-      "auxiliaryChunks": [
-        "34"
-      ]
-    },
-    {
-      "type": "asset",
-      "name": "static/js/async/lib-semi.021081f7.js.map",
-      "size": 1571399,
+      "name": "static/js/lib-semi.7fd02d4b.js.map",
+      "size": 1571830,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -140,7 +109,7 @@
     },
     {
       "type": "asset",
-      "name": "static/js/lib-polyfill.cd88972c.js.map",
+      "name": "static/js/lib-polyfill.9e031959.js.map",
       "size": 1211989,
       "emitted": false,
       "info": {
@@ -167,40 +136,8 @@
     },
     {
       "type": "asset",
-      "name": "static/js/34.dd5c22c1.js",
-      "size": 816995,
-      "emitted": false,
-      "info": {
-        "minimized": true,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": true,
-        "javascriptModule": false,
-        "chunkHash": [],
-        "contentHash": [
-          "dd5c22c1"
-        ],
-        "related": {
-          "sourceMap": [
-            "static/js/34.60624a01.js.map"
-          ]
-        }
-      },
-      "chunkNames": [],
-      "chunkIdHints": [
-        "vendors"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [
-        "34"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/css/async/lib-semi.3afca348.css",
-      "size": 555755,
+      "name": "static/css/lib-semi.8dccdd96.css",
+      "size": 566307,
       "emitted": false,
       "info": {
         "minimized": true,
@@ -223,33 +160,6 @@
         "308"
       ],
       "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/js/lib-router.d8f76f79.js.map",
-      "size": 472696,
-      "emitted": false,
-      "info": {
-        "minimized": false,
-        "development": true,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "lib-router"
-      ],
-      "auxiliaryChunkIdHints": [
-        "router"
-      ],
-      "chunks": [],
-      "auxiliaryChunks": [
-        "118"
-      ]
     },
     {
       "type": "asset",
@@ -305,8 +215,8 @@
     },
     {
       "type": "asset",
-      "name": "static/js/async/lib-semi.021081f7.js",
-      "size": 395793,
+      "name": "static/js/lib-semi.7fd02d4b.js",
+      "size": 396094,
       "emitted": false,
       "info": {
         "minimized": true,
@@ -316,11 +226,11 @@
         "javascriptModule": false,
         "chunkHash": [],
         "contentHash": [
-          "021081f7"
+          "7fd02d4b"
         ],
         "related": {
           "sourceMap": [
-            "static/js/async/lib-semi.00de28d1.js.map"
+            "static/js/lib-semi.00de28d1.js.map"
           ]
         }
       },
@@ -339,8 +249,8 @@
     },
     {
       "type": "asset",
-      "name": "static/js/async/lib-lodash.213cb490.js.map",
-      "size": 312558,
+      "name": "static/js/lib-lodash.213cb490.js.map",
+      "size": 312552,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -366,7 +276,7 @@
     },
     {
       "type": "asset",
-      "name": "static/js/lib-polyfill.cd88972c.js",
+      "name": "static/js/lib-polyfill.9e031959.js",
       "size": 219154,
       "emitted": false,
       "info": {
@@ -377,7 +287,7 @@
         "javascriptModule": false,
         "chunkHash": [],
         "contentHash": [
-          "cd88972c"
+          "9e031959"
         ],
         "related": {
           "sourceMap": [
@@ -466,41 +376,7 @@
     },
     {
       "type": "asset",
-      "name": "static/js/lib-router.d8f76f79.js",
-      "size": 55692,
-      "emitted": false,
-      "info": {
-        "minimized": true,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": true,
-        "javascriptModule": false,
-        "chunkHash": [],
-        "contentHash": [
-          "d8f76f79"
-        ],
-        "related": {
-          "sourceMap": [
-            "static/js/lib-router.50be10c3.js.map"
-          ]
-        }
-      },
-      "chunkNames": [
-        "lib-router"
-      ],
-      "chunkIdHints": [
-        "router"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [
-        "118"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/js/async/lib-lodash.213cb490.js",
+      "name": "static/js/lib-lodash.213cb490.js",
       "size": 42586,
       "emitted": false,
       "info": {
@@ -515,7 +391,7 @@
         ],
         "related": {
           "sourceMap": [
-            "static/js/async/lib-lodash.2bcb4ac5.js.map"
+            "static/js/lib-lodash.2bcb4ac5.js.map"
           ]
         }
       },
@@ -534,8 +410,8 @@
     },
     {
       "type": "asset",
-      "name": "static/js/async/page.a670077a.js.map",
-      "size": 8256,
+      "name": "static/js/index.52b74106.js.map",
+      "size": 9719,
       "emitted": false,
       "info": {
         "minimized": false,
@@ -549,17 +425,17 @@
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [
-        "page"
+        "index"
       ],
       "auxiliaryChunkIdHints": [],
       "chunks": [],
       "auxiliaryChunks": [
-        "484"
+        "980"
       ]
     },
     {
       "type": "asset",
-      "name": "static/css/async/page.c27874e5.css",
+      "name": "static/css/index.beb8e93f.css",
       "size": 8152,
       "emitted": false,
       "info": {
@@ -572,41 +448,20 @@
         "related": {}
       },
       "chunkNames": [
-        "page"
+        "index"
       ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
       "chunks": [
-        "484"
+        "980"
       ],
       "auxiliaryChunks": []
     },
     {
       "type": "asset",
-      "name": "main.html",
-      "size": 7019,
-      "emitted": false,
-      "info": {
-        "minimized": false,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/js/main.e72a163c.js",
-      "size": 3587,
+      "name": "static/js/index.52b74106.js",
+      "size": 6420,
       "emitted": false,
       "info": {
         "minimized": true,
@@ -616,64 +471,32 @@
         "javascriptModule": false,
         "chunkHash": [],
         "contentHash": [
-          "e72a163c"
+          "52b74106"
         ],
         "related": {
           "sourceMap": [
-            "static/js/main.d2866101.js.map"
+            "static/js/index.6e59c5f3.js.map"
           ]
         }
       },
       "chunkNames": [
-        "main"
+        "index"
       ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
       "chunks": [
-        "909"
+        "980"
       ],
       "auxiliaryChunks": []
     },
     {
       "type": "asset",
-      "name": "static/js/async/page.a670077a.js",
-      "size": 3050,
+      "name": "index.html",
+      "size": 6255,
       "emitted": false,
       "info": {
-        "minimized": true,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": true,
-        "javascriptModule": false,
-        "chunkHash": [],
-        "contentHash": [
-          "a670077a"
-        ],
-        "related": {
-          "sourceMap": [
-            "static/js/async/page.f4ae37b9.js.map"
-          ]
-        }
-      },
-      "chunkNames": [
-        "page"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [
-        "484"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/js/34.dd5c22c1.js.LICENSE.txt",
-      "size": 2472,
-      "emitted": false,
-      "info": {
-        "minimized": true,
+        "minimized": false,
         "development": false,
         "hotModuleReplacement": false,
         "immutable": false,
@@ -690,36 +513,11 @@
     },
     {
       "type": "asset",
-      "name": "static/js/main.e72a163c.js.map",
-      "size": 1851,
+      "name": "static/js/380.96fbc308.js.LICENSE.txt",
+      "size": 2788,
       "emitted": false,
       "info": {
-        "minimized": false,
-        "development": true,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": [
-        "909"
-      ]
-    },
-    {
-      "type": "asset",
-      "name": "routes-manifest.json",
-      "size": 1000,
-      "emitted": false,
-      "info": {
-        "minimized": false,
+        "minimized": true,
         "development": false,
         "hotModuleReplacement": false,
         "immutable": false,
@@ -845,48 +643,6 @@
     },
     {
       "type": "asset",
-      "name": "static/js/lib-router.d8f76f79.js.LICENSE.txt",
-      "size": 679,
-      "emitted": false,
-      "info": {
-        "minimized": true,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "static/js/async/67.8b54ec0d.js.LICENSE.txt",
-      "size": 314,
-      "emitted": false,
-      "info": {
-        "minimized": true,
-        "development": false,
-        "hotModuleReplacement": false,
-        "immutable": false,
-        "chunkHash": [],
-        "contentHash": [],
-        "related": {}
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
       "name": "static/js/async/562.8a907ac1.js.LICENSE.txt",
       "size": 188,
       "emitted": false,
@@ -961,15 +717,9 @@
   ],
   "chunks": [
     {
-      "id": "118",
-      "files": [
-        "static/js/lib-router.d8f76f79.js"
-      ]
-    },
-    {
       "id": "126",
       "files": [
-        "static/js/lib-polyfill.cd88972c.js"
+        "static/js/lib-polyfill.9e031959.js"
       ]
     },
     {
@@ -979,14 +729,8 @@
     {
       "id": "308",
       "files": [
-        "static/css/async/lib-semi.3afca348.css",
-        "static/js/async/lib-semi.021081f7.js"
-      ]
-    },
-    {
-      "id": "34",
-      "files": [
-        "static/js/34.dd5c22c1.js"
+        "static/css/lib-semi.8dccdd96.css",
+        "static/js/lib-semi.7fd02d4b.js"
       ]
     },
     {
@@ -996,10 +740,9 @@
       ]
     },
     {
-      "id": "484",
+      "id": "380",
       "files": [
-        "static/css/async/page.c27874e5.css",
-        "static/js/async/page.a670077a.js"
+        "static/js/380.96fbc308.js"
       ]
     },
     {
@@ -1016,21 +759,9 @@
       ]
     },
     {
-      "id": "67",
-      "files": [
-        "static/js/async/67.8b54ec0d.js"
-      ]
-    },
-    {
       "id": "707",
       "files": [
-        "static/js/async/lib-lodash.213cb490.js"
-      ]
-    },
-    {
-      "id": "909",
-      "files": [
-        "static/js/main.e72a163c.js"
+        "static/js/lib-lodash.213cb490.js"
       ]
     },
     {
@@ -1039,18 +770,26 @@
         "static/css/async/944.50604d29.css",
         "static/js/async/944.976c1516.js"
       ]
+    },
+    {
+      "id": "980",
+      "files": [
+        "static/css/index.beb8e93f.css",
+        "static/js/index.52b74106.js"
+      ]
     }
   ],
   "entrypoints": {
-    "main": {
-      "name": "main",
+    "index": {
+      "name": "index",
       "chunks": [
         "242",
         "361",
         "126",
-        "118",
-        "34",
-        "909"
+        "308",
+        "707",
+        "380",
+        "980"
       ],
       "assets": [
         {
@@ -1058,37 +797,50 @@
           "size": 140265
         },
         {
-          "name": "static/js/lib-polyfill.cd88972c.js",
+          "name": "static/js/lib-polyfill.9e031959.js",
           "size": 219154
         },
         {
-          "name": "static/js/lib-router.d8f76f79.js",
-          "size": 55692
+          "name": "static/css/lib-semi.8dccdd96.css",
+          "size": 566307
         },
         {
-          "name": "static/js/34.dd5c22c1.js",
-          "size": 816995
+          "name": "static/js/lib-semi.7fd02d4b.js",
+          "size": 396094
         },
         {
-          "name": "static/js/main.e72a163c.js",
-          "size": 3587
+          "name": "static/js/lib-lodash.213cb490.js",
+          "size": 42586
+        },
+        {
+          "name": "static/js/380.96fbc308.js",
+          "size": 4336445
+        },
+        {
+          "name": "static/css/index.beb8e93f.css",
+          "size": 8152
+        },
+        {
+          "name": "static/js/index.52b74106.js",
+          "size": 6420
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 1235693,
+      "assetsSize": 5715423,
       "children": {}
     }
   },
   "namedChunkGroups": {
-    "main": {
-      "name": "main",
+    "index": {
+      "name": "index",
       "chunks": [
         "242",
         "361",
         "126",
-        "118",
-        "34",
-        "909"
+        "308",
+        "707",
+        "380",
+        "980"
       ],
       "assets": [
         {
@@ -1096,62 +848,36 @@
           "size": 140265
         },
         {
-          "name": "static/js/lib-polyfill.cd88972c.js",
+          "name": "static/js/lib-polyfill.9e031959.js",
           "size": 219154
         },
         {
-          "name": "static/js/lib-router.d8f76f79.js",
-          "size": 55692
+          "name": "static/css/lib-semi.8dccdd96.css",
+          "size": 566307
         },
         {
-          "name": "static/js/34.dd5c22c1.js",
-          "size": 816995
+          "name": "static/js/lib-semi.7fd02d4b.js",
+          "size": 396094
         },
         {
-          "name": "static/js/main.e72a163c.js",
-          "size": 3587
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": 1235693,
-      "children": {}
-    },
-    "page": {
-      "name": "page",
-      "chunks": [
-        "308",
-        "707",
-        "67",
-        "484"
-      ],
-      "assets": [
-        {
-          "name": "static/css/async/lib-semi.3afca348.css",
-          "size": 555755
-        },
-        {
-          "name": "static/js/async/lib-semi.021081f7.js",
-          "size": 395793
-        },
-        {
-          "name": "static/js/async/lib-lodash.213cb490.js",
+          "name": "static/js/lib-lodash.213cb490.js",
           "size": 42586
         },
         {
-          "name": "static/js/async/67.8b54ec0d.js",
-          "size": 3527001
+          "name": "static/js/380.96fbc308.js",
+          "size": 4336445
         },
         {
-          "name": "static/css/async/page.c27874e5.css",
+          "name": "static/css/index.beb8e93f.css",
           "size": 8152
         },
         {
-          "name": "static/js/async/page.a670077a.js",
-          "size": 3050
+          "name": "static/js/index.52b74106.js",
+          "size": 6420
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4532337,
+      "assetsSize": 5715423,
       "children": {}
     }
   },
