@@ -1,0 +1,211 @@
+{
+  "autoLoadPlugins": false,
+  "source": {
+    "mainEntryName": "main",
+    "enableAsyncEntry": false,
+    "enableCustomEntry": false,
+    "disableDefaultEntries": false,
+    "entriesDir": "./src",
+    "configDir": "./config",
+    "globalVars": {
+      "process.env.MODERN_JS_VERSION": "2.56.0",
+      "process.env.IS_REACT18": "true"
+    },
+    "alias": {
+      "@_modern_js_internal": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/.modern-js",
+      "@_modern_js_src": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/src",
+      "@": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/src",
+      "@shared": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/shared",
+      "styled-components": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/styled-components/dist/styled-components.cjs.js",
+      "@modern-js/runtime/plugins": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/.modern-js/.runtime-exports/plugins.js",
+      "@modern-js/runtime-utils/node$": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/@modern-js/runtime-utils/dist/cjs/node/index.js",
+      "@modern-js/runtime/server": "@modern-js/plugin-express/runtime",
+      "@modern-js/runtime/express": "@modern-js/plugin-express/runtime"
+    },
+    "include": [
+      {},
+      {},
+      {},
+      "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/node_modules/.modern-js"
+    ],
+    "moduleScopes": [
+      "./api",
+      {}
+    ]
+  },
+  "output": {
+    "distPath": {
+      "root": "dist",
+      "html": "html",
+      "js": "static/js",
+      "css": "static/css",
+      "server": "bundles",
+      "worker": "worker"
+    },
+    "cleanDistPath": true,
+    "disableNodePolyfill": true,
+    "enableInlineRouteManifests": true,
+    "disableInlineRouteManifests": false,
+    "ssg": true
+  },
+  "server": {
+    "baseUrl": "/",
+    "port": 8080
+  },
+  "dev": {},
+  "html": {
+    "title": "",
+    "mountId": "root",
+    "meta": {
+      "charset": {
+        "charset": "utf-8"
+      },
+      "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "http-equiv": {
+        "http-equiv": "x-ua-compatible",
+        "content": "ie=edge"
+      },
+      "renderer": "webkit",
+      "layoutmode": "standard",
+      "imagemode": "force",
+      "wap-font-scale": "no",
+      "format-detection": "telephone=no"
+    }
+  },
+  "tools": {
+    "tsChecker": {
+      "issue": {
+        "exclude": [
+          {
+            "file": "**/api/lambda/**/*"
+          }
+        ]
+      }
+    },
+    "styledComponents": {
+      "topLevelImportPaths": [
+        "@modern-js/runtime/styled"
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "name": "@modern-js/app-tools",
+      "post": [
+        "@modern-js/plugin-initialize",
+        "@modern-js/plugin-analyze",
+        "@modern-js/plugin-ssr",
+        "@modern-js/plugin-document",
+        "@modern-js/plugin-state",
+        "@modern-js/plugin-router",
+        "@modern-js/plugin-router-v5",
+        "@modern-js/plugin-polyfill"
+      ],
+      "registerHook": {
+        "_internalRuntimePlugins": {},
+        "modifyFileSystemRoutes": {},
+        "modifyServerRoutes": {},
+        "modifyEntrypoints": {},
+        "checkEntryPoint": {},
+        "generateEntryCode": {},
+        "htmlPartials": {},
+        "beforeGenerateRoutes": {},
+        "addDefineTypes": {},
+        "collectServerPlugins": {},
+        "_internalServerPlugins": {},
+        "beforeDev": {},
+        "afterDev": {},
+        "beforeCreateCompiler": {},
+        "afterCreateCompiler": {},
+        "beforePrintInstructions": {},
+        "beforeBuild": {},
+        "afterBuild": {},
+        "beforeDeploy": {},
+        "deploy": {},
+        "afterDeploy": {},
+        "beforeRestart": {},
+        "registerDev": {},
+        "beforeDevTask": {},
+        "registerBuildPlatform": {},
+        "beforeBuildPlatform": {}
+      },
+      "usePlugins": [
+        {
+          "name": "@modern-js/plugin-initialize",
+          "post": [
+            "@modern-js/plugin-ssr",
+            "@modern-js/plugin-document",
+            "@modern-js/plugin-state",
+            "@modern-js/plugin-router",
+            "@modern-js/plugin-router-v5",
+            "@modern-js/plugin-polyfill"
+          ]
+        },
+        {
+          "name": "@modern-js/plugin-analyze",
+          "post": [
+            "@modern-js/runtime"
+          ]
+        },
+        {
+          "name": "@modern-js/server-build"
+        },
+        {
+          "name": "@modern-js/plugin-lint"
+        },
+        {
+          "name": "@modern-js/plugin-deploy"
+        }
+      ]
+    },
+    {
+      "name": "@modern-js/plugin-tailwindcss",
+      "usePlugins": [
+        {
+          "name": "@modern-js/plugin-design-token"
+        }
+      ]
+    },
+    {
+      "name": "@modern-js/plugin-bff"
+    },
+    {
+      "name": "@modern-js/plugin-express"
+    },
+    {
+      "name": "@modern-js/plugin-ssg",
+      "pre": [
+        "@modern-js/plugin-server",
+        "@modern-js/plugin-bff"
+      ]
+    }
+  ],
+  "builderPlugins": [
+    {
+      "name": "@modern-js/builder-plugin-ssr"
+    }
+  ],
+  "runtime": {
+    "router": true
+  },
+  "runtimeByEntries": {},
+  "_raw": {
+    "runtime": {
+      "router": true
+    },
+    "output": {
+      "ssg": true
+    },
+    "plugins": [
+      "[Circular 0]",
+      "[Circular 1]",
+      "[Circular 2]",
+      "[Circular 3]",
+      "[Circular 4]"
+    ]
+  },
+  "bff": {},
+  "testing": {},
+  "deploy": {},
+  "performance": {}
+}

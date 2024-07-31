@@ -1,0 +1,1159 @@
+{
+  "name": "web",
+  "hash": "c2d82df851848b9c",
+  "publicPath": "/",
+  "outputPath": "/Users/wudi/Documents/project/lark-bitable-sidebar-format-preview/dist",
+  "assetsByChunkName": {
+    "lib-lodash": [
+      "static/js/async/lib-lodash.213cb490.js"
+    ],
+    "lib-react": [
+      "static/js/lib-react.8e3eec5f.js"
+    ],
+    "lib-router": [
+      "static/js/lib-router.d8f76f79.js"
+    ],
+    "lib-semi": [
+      "static/css/async/lib-semi.3afca348.css",
+      "static/js/async/lib-semi.021081f7.js"
+    ],
+    "main": [
+      "static/js/main.491639ee.js"
+    ],
+    "page": [
+      "static/css/async/page.c27874e5.css",
+      "static/js/async/page.a670077a.js"
+    ],
+    "lib-polyfill": [
+      "static/js/lib-polyfill.cd88972c.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "static/js/async/67.8b54ec0d.js.map",
+      "size": 9308542,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [
+        "vendors"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "67"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/67.8b54ec0d.js",
+      "size": 3527001,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "8b54ec0d"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/async/67.6c6e2572.js.map"
+          ]
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "67"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/34.dd5c22c1.js.map",
+      "size": 2287747,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [
+        "vendors"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "34"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/lib-semi.021081f7.js.map",
+      "size": 1571399,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "lib-semi"
+      ],
+      "auxiliaryChunkIdHints": [
+        "lib-semi"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "308"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-polyfill.cd88972c.js.map",
+      "size": 1211989,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "lib-polyfill"
+      ],
+      "auxiliaryChunkIdHints": [
+        "lib-polyfill"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "126"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/34.dd5c22c1.js",
+      "size": 816995,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "dd5c22c1"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/34.60624a01.js.map"
+          ]
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "34"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/css/async/lib-semi.3afca348.css",
+      "size": 555755,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [
+        "lib-semi"
+      ],
+      "chunkIdHints": [
+        "lib-semi"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "308"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-router.d8f76f79.js.map",
+      "size": 472696,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "lib-router"
+      ],
+      "auxiliaryChunkIdHints": [
+        "router"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "118"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/562.8a907ac1.js.map",
+      "size": 411003,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [
+        "vendors"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "562"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-react.8e3eec5f.js.map",
+      "size": 398221,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "lib-react"
+      ],
+      "auxiliaryChunkIdHints": [
+        "react"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "361"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/lib-semi.021081f7.js",
+      "size": 395793,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "021081f7"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/async/lib-semi.00de28d1.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "lib-semi"
+      ],
+      "chunkIdHints": [
+        "lib-semi"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "308"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/lib-lodash.213cb490.js.map",
+      "size": 312558,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "lib-lodash"
+      ],
+      "auxiliaryChunkIdHints": [
+        "lib-lodash"
+      ],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "707"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-polyfill.cd88972c.js",
+      "size": 219154,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "cd88972c"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/lib-polyfill.8fedea2c.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "lib-polyfill"
+      ],
+      "chunkIdHints": [
+        "lib-polyfill"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "126"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/562.8a907ac1.js",
+      "size": 160394,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "8a907ac1"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/async/562.7bddf112.js.map"
+          ]
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "562"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-react.8e3eec5f.js",
+      "size": 140265,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "8e3eec5f"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/lib-react.ffd73ee9.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "lib-react"
+      ],
+      "chunkIdHints": [
+        "react"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "361"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-router.d8f76f79.js",
+      "size": 55692,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "d8f76f79"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/lib-router.50be10c3.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "lib-router"
+      ],
+      "chunkIdHints": [
+        "router"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "118"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/lib-lodash.213cb490.js",
+      "size": 42586,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "213cb490"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/async/lib-lodash.2bcb4ac5.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "lib-lodash"
+      ],
+      "chunkIdHints": [
+        "lib-lodash"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "707"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/page.a670077a.js.map",
+      "size": 8256,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "page"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "484"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "static/css/async/page.c27874e5.css",
+      "size": 8152,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [
+        "page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "484"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "html/main/index.html",
+      "size": 7013,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/main.491639ee.js",
+      "size": 3584,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "491639ee"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/main.9aeea468.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "909"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/page.a670077a.js",
+      "size": 3050,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "a670077a"
+        ],
+        "related": {
+          "sourceMap": [
+            "static/js/async/page.f4ae37b9.js.map"
+          ]
+        }
+      },
+      "chunkNames": [
+        "page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "484"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/34.dd5c22c1.js.LICENSE.txt",
+      "size": 2472,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/main.491639ee.js.map",
+      "size": 1851,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": true,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "909"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "routes-manifest.json",
+      "size": 987,
+      "emitted": false,
+      "info": {
+        "minimized": false,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-react.8e3eec5f.js.LICENSE.txt",
+      "size": 970,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "public/css/atom-one-dark.css",
+      "size": 856,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "public/css/atom-one-light.css",
+      "size": 856,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/css/async/526.4cd77a17.css",
+      "size": 856,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "526"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/css/async/944.50604d29.css",
+      "size": 856,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "944"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/lib-router.d8f76f79.js.LICENSE.txt",
+      "size": 679,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/67.8b54ec0d.js.LICENSE.txt",
+      "size": 314,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/562.8a907ac1.js.LICENSE.txt",
+      "size": 188,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": false,
+        "chunkHash": [],
+        "contentHash": [],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/526.50b1c5b6.js",
+      "size": 131,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "50b1c5b6"
+        ],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "526"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/async/944.976c1516.js",
+      "size": 131,
+      "emitted": false,
+      "info": {
+        "minimized": true,
+        "development": false,
+        "hotModuleReplacement": false,
+        "immutable": true,
+        "javascriptModule": false,
+        "chunkHash": [],
+        "contentHash": [
+          "976c1516"
+        ],
+        "related": {}
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "944"
+      ],
+      "auxiliaryChunks": []
+    }
+  ],
+  "chunks": [
+    {
+      "id": "118",
+      "files": [
+        "static/js/lib-router.d8f76f79.js"
+      ]
+    },
+    {
+      "id": "126",
+      "files": [
+        "static/js/lib-polyfill.cd88972c.js"
+      ]
+    },
+    {
+      "id": "242",
+      "files": []
+    },
+    {
+      "id": "308",
+      "files": [
+        "static/css/async/lib-semi.3afca348.css",
+        "static/js/async/lib-semi.021081f7.js"
+      ]
+    },
+    {
+      "id": "34",
+      "files": [
+        "static/js/34.dd5c22c1.js"
+      ]
+    },
+    {
+      "id": "361",
+      "files": [
+        "static/js/lib-react.8e3eec5f.js"
+      ]
+    },
+    {
+      "id": "484",
+      "files": [
+        "static/css/async/page.c27874e5.css",
+        "static/js/async/page.a670077a.js"
+      ]
+    },
+    {
+      "id": "526",
+      "files": [
+        "static/css/async/526.4cd77a17.css",
+        "static/js/async/526.50b1c5b6.js"
+      ]
+    },
+    {
+      "id": "562",
+      "files": [
+        "static/js/async/562.8a907ac1.js"
+      ]
+    },
+    {
+      "id": "67",
+      "files": [
+        "static/js/async/67.8b54ec0d.js"
+      ]
+    },
+    {
+      "id": "707",
+      "files": [
+        "static/js/async/lib-lodash.213cb490.js"
+      ]
+    },
+    {
+      "id": "909",
+      "files": [
+        "static/js/main.491639ee.js"
+      ]
+    },
+    {
+      "id": "944",
+      "files": [
+        "static/css/async/944.50604d29.css",
+        "static/js/async/944.976c1516.js"
+      ]
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "242",
+        "361",
+        "126",
+        "118",
+        "34",
+        "909"
+      ],
+      "assets": [
+        {
+          "name": "static/js/lib-react.8e3eec5f.js",
+          "size": 140265
+        },
+        {
+          "name": "static/js/lib-polyfill.cd88972c.js",
+          "size": 219154
+        },
+        {
+          "name": "static/js/lib-router.d8f76f79.js",
+          "size": 55692
+        },
+        {
+          "name": "static/js/34.dd5c22c1.js",
+          "size": 816995
+        },
+        {
+          "name": "static/js/main.491639ee.js",
+          "size": 3584
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1235690,
+      "children": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "242",
+        "361",
+        "126",
+        "118",
+        "34",
+        "909"
+      ],
+      "assets": [
+        {
+          "name": "static/js/lib-react.8e3eec5f.js",
+          "size": 140265
+        },
+        {
+          "name": "static/js/lib-polyfill.cd88972c.js",
+          "size": 219154
+        },
+        {
+          "name": "static/js/lib-router.d8f76f79.js",
+          "size": 55692
+        },
+        {
+          "name": "static/js/34.dd5c22c1.js",
+          "size": 816995
+        },
+        {
+          "name": "static/js/main.491639ee.js",
+          "size": 3584
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1235690,
+      "children": {}
+    },
+    "page": {
+      "name": "page",
+      "chunks": [
+        "308",
+        "707",
+        "67",
+        "484"
+      ],
+      "assets": [
+        {
+          "name": "static/css/async/lib-semi.3afca348.css",
+          "size": 555755
+        },
+        {
+          "name": "static/js/async/lib-semi.021081f7.js",
+          "size": 395793
+        },
+        {
+          "name": "static/js/async/lib-lodash.213cb490.js",
+          "size": 42586
+        },
+        {
+          "name": "static/js/async/67.8b54ec0d.js",
+          "size": 3527001
+        },
+        {
+          "name": "static/css/async/page.c27874e5.css",
+          "size": 8152
+        },
+        {
+          "name": "static/js/async/page.a670077a.js",
+          "size": 3050
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 4532337,
+      "children": {}
+    }
+  },
+  "generator": "loadable-components"
+}

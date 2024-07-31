@@ -16,6 +16,7 @@
   "engines": {
     "node": ">=16.18.1"
   },
+  "output": "dist",
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
       "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
@@ -26,12 +27,12 @@
     "dist/"
   ],
   "dependencies": {
-    "@douyinfe/semi-ui": "^2.62.1",
+    "@douyinfe/semi-ui": "^2.63.1",
     "@lark-base-open/js-sdk": "^0.4.0",
-    "@modern-js/plugin-bff": "2.56.0",
-    "@modern-js/plugin-express": "2.56.0",
-    "@modern-js/plugin-tailwindcss": "2.56.0",
-    "@modern-js/runtime": "2.56.0",
+    "@modern-js/plugin-bff": "2.56.2",
+    "@modern-js/plugin-express": "2.56.2",
+    "@modern-js/plugin-tailwindcss": "2.56.2",
+    "@modern-js/runtime": "2.56.2",
     "@prettier/plugin-xml": "^3.4.1",
     "@semi-bot/semi-theme-feishu-dashboard": "^1.0.4",
     "express": "~4.19.2",
@@ -43,24 +44,24 @@
     "react-dom": "~18.3.1"
   },
   "devDependencies": {
-    "@modern-js-app/eslint-config": "2.56.0",
-    "@modern-js/app-tools": "2.56.0",
-    "@modern-js/eslint-config": "2.56.0",
-    "@modern-js/plugin-ssg": "2.56.0",
-    "@modern-js/tsconfig": "2.56.0",
+    "@modern-js-app/eslint-config": "2.56.2",
+    "@modern-js/app-tools": "2.56.2",
+    "@modern-js/eslint-config": "2.56.2",
+    "@modern-js/plugin-ssg": "2.56.2",
+    "@modern-js/tsconfig": "2.56.2",
     "@types/express": "~4.17.21",
     "@types/jest": "~29.5.12",
-    "@types/node": "~20.14.11",
+    "@types/node": "~22.0.0",
     "@types/react": "~18.3.3",
     "@types/react-dom": "~18.3.0",
-    "husky": "~9.1.1",
+    "husky": "~9.1.4",
     "lint-staged": "~15.2.7",
     "plugin-xml": "link:@types/@prettier/plugin-xml",
     "prettier": "~3.3.3",
     "rimraf": "~6.0.1",
-    "tailwindcss": "~3.4.6",
+    "tailwindcss": "~3.4.7",
     "ts-node": "~10.9.2",
     "tsconfig-paths": "~4.2.0",
-    "typescript": "~5.5.3"
+    "typescript": "~5.5.4"
   }
 }

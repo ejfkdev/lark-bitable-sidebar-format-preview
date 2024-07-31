@@ -41,12 +41,11 @@ const Index = () => {
       }
       bitable.base
         .getTable(event.data.tableId)
-        .then(table => {
-          table
-            .getCellString(event.data.fieldId!, event.data.recordId!)
-            .then(str => {
-              setContent(str);
-            });
+        .then(table =>
+          table.getCellString(event.data.fieldId!, event.data.recordId!),
+        )
+        .then(str => {
+          setContent(str);
         })
         .catch(e => console.log(e));
     });

@@ -1,0 +1,31 @@
+{
+  "routes": [
+    {
+      "urlPath": "/",
+      "entryName": "main",
+      "entryPath": "html/main/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false
+    },
+    {
+      "urlPath": "/css/atom-one-dark.css",
+      "isSPA": true,
+      "isSSR": false,
+      "entryPath": "public/css/atom-one-dark.css"
+    },
+    {
+      "urlPath": "/css/atom-one-light.css",
+      "isSPA": true,
+      "isSSR": false,
+      "entryPath": "public/css/atom-one-light.css"
+    },
+    {
+      "urlPath": "/api",
+      "isApi": true,
+      "entryPath": "",
+      "isSPA": false,
+      "isSSR": false
+    }
+  ]
+}
